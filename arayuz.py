@@ -1,8 +1,3 @@
-import pyserial
-ard = serial.Serial('/dev/ttyUSB0')
-#ard.write()
-print(psari , "Islem Seciniz: ")
-
 normal = '\033[0m'
 kirmizi= '\033[31m'
 yesil= '\033[32m'
@@ -31,6 +26,46 @@ aplacivert= '\033[104m'
 apmor= '\033[105m'
 apmavi= '\033[106m'
 apbeyaz= '\033[107m'
+
+
+
+
+
+
+
+import pyserial
+ard = serial.Serial('/dev/ttyUSB0')
+#ard.write()
+print(psari , "Islem Seciniz: ")
+print(pmavi ," 1 - PWM-Servo/ESC ureteci")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
